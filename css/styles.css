@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+.container{
+    background-color: pink;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+h1{
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    animation: h1Anim 7s infinite;*/
+    max-width: max-content;     
+}
+
+@keyframes h1Anim {
+    0% {transform: translateX(-30%);}
+    50% {transform: translateX(30%);}
+    100% {transform: translateX(-30%);}
+}
+
+#btnReestablecer{
+    border-radius: 30px;
+    background-color: rgb(255, 0, 238);
+    border-width: 5px;
+    border-color: red;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    margin: 20px;
+}
+
+#btnReestablecer:hover{
+    background-color: red;
+}
